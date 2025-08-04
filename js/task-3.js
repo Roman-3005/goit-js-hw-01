@@ -1,9 +1,11 @@
 'use strict';
 
 function getElementWidth(content, padding, border) {
-    const content=
-  const totalPrice = price + deliveryFee;
-  return `Shipping to ${country} will cost ${totalPrice} credits`;
+  const contentValue = parseFloat(content);
+  const paddingValue = parseFloat(padding);
+  const borderValue = parseFloat(border);
+
+  return contentValue + paddingValue * 2 + borderValue * 2;
 }
 
 console.log(getElementWidth("50px", "8px", "4px")); // 74
