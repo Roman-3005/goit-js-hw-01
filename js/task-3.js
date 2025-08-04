@@ -1,3 +1,5 @@
+'use strict';
+
 function getElementWidth(content, padding, border) {
     const content=
   const totalPrice = price + deliveryFee;
